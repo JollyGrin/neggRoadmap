@@ -1,0 +1,317 @@
+
+/************************************************
+MISC
+************************************************/
+
+/*@font-face { font-family: GT-Walsheim-Bold; src: url('GT-Walsheim-Bold.TTF'); } */
+
+
+/*@font-face {
+  font-family: 'GT-Walsheim-Bold';
+  src: url('GT-Walsheim-Bold.ttf')  format('truetype'),
+}*/
+
+body {
+  font-family: 'Circular', Fallback, sans-serif;
+}
+
+.fix {
+  position: fixed;
+  top: 0%;
+  z-index: 1;
+  width: 100%;
+}
+
+.pad5vh {
+  padding: 5vh;
+}
+
+.size-12 { font-size: 12px; }
+      .size-14 { font-size: 14px; }
+      .size-16 { font-size: 16px; }
+      .size-18 { font-size: 18px; }
+      .size-21 { font-size: 21px; }
+      .size-24 { font-size: 24px; }
+      .size-36 { font-size: 36px; }
+      .size-48 { font-size: 48px; }
+      .size-60 { font-size: 60px; }
+      .size-72 { font-size: 72px; }
+      .size-102 { font-size: 102px; }
+      
+      i.medium { font-size: 48px;}
+      i.large { font-size: 72px;}
+      i.xlarge { font-size: 102px;}
+
+
+
+/************************************************
+YOUTUBE CONTAINER
+************************************************/
+
+
+  .video-container {
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+
+/************************************************
+HEADER
+************************************************/
+
+.is-dropdown-submenu-transparent{
+  border: 0px;
+  background: transparent;
+}
+
+/*a:link, a:visited{
+  color: white;
+}
+
+a:hover{
+  color:#2ba6cb;
+}*/
+
+.menu-text {
+  color: white;
+}
+
+.hero-section {
+  background: url("http://www.zurb.com/blog/system/images/1698/original/ZB_F5Yeti_8-06.png?1441395222") 50% no-repeat;
+  background-size: cover;
+  height: 60vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero-section .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
+  font-family: "Circular", sans-serif;
+}
+
+  .hero {
+  z-index: -1;
+  background: url("../images/hands.svg") 50% no-repeat;
+  background-size: cover;
+  height: 80vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  }
+
+  .hero .hero-text {
+  color: #fefefe;
+  /*text-shadow: 1px 1px 2px #0a0a0a;*/
+}
+
+#hero-call {
+    margin-top: 12.5%;
+    margin-left: 12.5%;
+    color: white;
+  }
+
+#hero-call h1 {
+    font-size: 7vmin;
+    /*font-family: 'Lato', sans-serif;*/
+}
+
+#hero-call h2 {
+    font-size: 5.5vmin;
+    /*font-family: 'Circular', sans-serif;*/
+    color: white;
+    padding-top:3vmin;
+}
+
+  .social-listing {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.social-media-img {
+    height: 10vmin;
+    width: auto;
+}
+
+/************************************************
+MAIN
+************************************************/
+
+.redbar {
+  width: 100%;
+  background-color: red;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+/************************************************
+NESTEGG
+************************************************/
+
+.nav-egg {
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+  background-color:red;
+}
+
+
+
+
+/************************************************
+TIMELINE
+************************************************/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: normal 16px/1.5 "Circular", sans-serif;
+  background: #9DCDB3;
+  color: #fff;
+  overflow-x: hidden;
+}  
+
+
+/* INTRO SECTION
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.intro {
+  background: #7CC3C3;
+  padding: 100px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.timeline {
+  overflow: auto;
+}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #fff;
+}
+ 
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
+
+/* Timeline Cards
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 40vmin;
+  padding: 15px;
+  background: #e8175d;
+}
+ 
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+ 
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #F45B69 transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  position: relative;
+  right: 45vmin;
+  text-align: right;
+}
+ 
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #F45B69;
+}
+
+
+/************************************************
+FOOTER 
+************************************************/
+
+footer {
+  height: 20vh;
+  background-color: #222;
+  padding-top: 3vh;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  padding-bottom: 10vh;
+  
+  bottom:0;
+}
+
+footer a {
+  display: block;
+}
+
+footer h4 {
+  color: white;
+}

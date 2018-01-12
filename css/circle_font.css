@@ -1,0 +1,17 @@
+/* fonts/3isE9muMMOq1K7TQ7HkKvIDGDUGfDkXyfkzVDelzfFk.truetype */
+
+/* latin-ext */
+@font-face {
+  font-family: 'Circular';
+  font-style: normal;
+  font-weight: 200;
+  src: url(../fonts/circular-light.ttf) format('truetype');
+}
+/* latin */
+@font-face {
+  font-family: 'Circular';
+  font-style: normal;
+  font-weight: 200;
+  src: url(../fonts/circular-book.ttf) format('truetype');
+}
+
