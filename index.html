@@ -4,22 +4,49 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Timeline</title>
+    <title>NestEgg Development Roadmap</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="foundation-icons/foundation-icons.css" />
+
+    <!-- LITY -->
+    <link href="css/lity.min.css" rel="stylesheet">
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/lity.min.js"></script>
+    <!-- // LITY -->
+
     <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" /> -->
     <link href='css/circle_font.css' rel='stylesheet' type='text/css'>
+
+    <!-- ****** faviconit.com favicons ****** -->
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="196x196" href="favicon/favicon-192.png">
+    <link rel="icon" type="image/png" sizes="160x160" href="favicon/favicon-160.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon/favicon-64.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/favicon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/favicon-72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/favicon-144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/favicon-60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/favicon-120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/favicon-76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/favicon-152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/favicon-180.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="favicon/favicon-144.png">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+    <!-- ****** faviconit.com favicons ****** -->
+
     <style type="text/css">
       ul li div a:link, a:visited {
         /*color: white;*/
         font-weight: bold;
         /*text-shadow: 1px 1px 1px #0a0a0a;*/
       }
-
-
     </style>
-
   </head>
   <body>
 
@@ -55,9 +82,10 @@
 <section class="intro">
   <div class="container">
     <h2><strong>The Roadmap to reach NestEgg 1.0 </strong></h2>
-    <h4 style="margin-bottom: -5vh">Rome wasn’t built in a day. NestEgg is building its platform through iterations of real-world experiments. Together with the participants in our experiments, we’ll achieve the milestones needed to reach v1.0</h4>
-    <!-- <h2 style="margin-bottom: -8vh">&darr;</h2> -->
+    <h4>Rome wasn’t built in a day. NestEgg is building its platform through iterations of real-world experiments. Together with the participants in our experiments, we’ll achieve the milestones needed to reach v1.0</h4>
+    <button class="button large" style="margin-top: 5vh; border-radius: 100px; background-color: #9DCDB3;"><a href="https://nestegg2.typeform.com/to/bTody9" style="color: white;" data-lity>Join a NestEgg Experiment</a></button> <br> <span><a href="#lockbox"> Current Experiment: The Lockbox</a></span>
   </div>
+  	
 </section>
 
 <section class="timeline">
@@ -82,7 +110,7 @@
     <!-- // LIST ITEM -->
 
     <!-- LIST ITEM -->
-    <li>
+    <li id="droneshare">
       <div>
         <time><a href="https://medium.com/nestegg/droneshare-in-review-d9bf4dcc8052" target="_blank">Oct. 10, 2017</a></time><br>
         <span>The start of DroneShare!<br><br>
@@ -95,7 +123,7 @@
     <!-- // LIST ITEM -->
 
     <!-- LIST ITEM -->
-    <li class="inactive">
+    <li id="lockbox" class="inactive">
       <div class="inactive">
         <time><a href="lockbox.dean.coffee" target="_blank">The Lockbox</a></time><br>
         <span>Following DroneShare, NestEgg wants to remove some elements of centralization present in DroneShare. This time, to avoid needing to email NestEgg for pickups, users will be able to hold a digital key on their phone which opens a locked box that holds the asset.<br><br>
@@ -106,7 +134,7 @@
     <!-- // LIST ITEM -->
 
     <!-- LIST ITEM -->
-    <li class="inactive">
+    <li id="rentshare" class="inactive">
       <div class="inactive">
         <time><a href="#">RentShare</a></time><br>
         <span>Following The Lockbox, NestEgg will have a working user-management system that checks the blockchain for authorization. This time, instead of sharing a fun toy (like a VR station or 3D camera), participants will be able to purchase partial ownership in a Tesla.<br><br>
@@ -150,20 +178,20 @@
 <footer>
   <div class="row wrap small-up-1 medium-up-3">
       <div class="columns">
-      <h4>Location</h4>
-      <a href="https://goo.gl/maps/MJHPfMuuoLN2">Brightlands Smart Services Campus<br> 2 Smedestraat 6411CR, Heerlen Netherlands.</a>
-      </div>
-      <div class="columns">
         <h4>NestEgg</h4>
-        <a href="#">Contact</a>
-        <a href="#">About</a>
-        <a href="#">The Team</a>
+        <a href="http://nestegg.eu">Home</a>
+        <a href="http://nestegg.eu/about.html">About</a>
+        <a href="https://www.youtube.com/watch?v=SmdDkS1y4wY">What is NestEgg? (Video)</a>
       </div>
       <div class="columns">
         <h4>Join the Experiments</h4>
-        <a href="#">About experiments</a>
-        <a href="#">Join an experiment</a>
-        <!-- <a href="#">FAQ</a> -->
+        <a href="#droneshare">DroneShare (Finished on Nov 25th)</a>
+        <a href="#lockbox">The LockBox (Signups Available)</a>
+        <a href="#rentshare">RentShare (Coming Soon)</a>
+      </div>
+      <div class="columns">
+      <h4>Location</h4>
+      <a href="https://goo.gl/maps/MJHPfMuuoLN2">Brightlands Smart Services Campus<br> 2 Smedestraat 6411CR, Heerlen Netherlands.</a>
       </div>
   </div>
 
